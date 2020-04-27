@@ -1,0 +1,24 @@
+@import url('./__background/cover__background.css');
+@import url('./__overlay/cover__overlay.css');
+@import url('./__subtitle/cover__subtitle.css');
+@import url('./__title/cover__title.css');
+@import url('./__text-container/cover__text-container.css');
+
+.cover {
+  max-width: 1184px;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+
+ .cover:hover .cover__overlay {
+  opacity: .2;
+ }

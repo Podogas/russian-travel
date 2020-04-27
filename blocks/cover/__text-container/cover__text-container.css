@@ -1,0 +1,6 @@
+.cover__text-container  {
+  position: absolute;
+  color: #FFFDFD;
+  text-align: center;
+  z-index: 2;
+}

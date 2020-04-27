@@ -1,0 +1,21 @@
+@import url('./__lang-link_status/header__lang-link_status_active.css');
+@import url('./__lang-link_status/header__lang-link_status_unactive.css');
+
+.header__lang-link {
+  font-size: 24px;
+  line-height: 1.17;
+  font-weight: 400;
+  margin-left: 19px;
+  margin-bottom: 5px; 
+}
+
+.header__lang-link:hover {
+  opacity: .8;
+}
+
+
+@media screen and (max-width: 425px) {
+  .header__lang-link {
+    font-size: 18px;
+  }
+}
