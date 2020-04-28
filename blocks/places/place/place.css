@@ -33,6 +33,13 @@
       grid-column-gap: 28px;
     }
 }
+@media screen and (max-width: 767px) {
+    .place{
+      margin-bottom: 72px;
+      grid-template-columns: 43vw 1fr;
+      grid-column-gap: 28px;
+    }
+}
 
 
 @media screen and (max-width: 320px) {
@@ -44,6 +51,5 @@
     "paragraph"
     "website";
      grid-row-gap: 32px;
-     
     }
 }

@@ -13,6 +13,11 @@
         font-size: 16px;
         line-height: 1.63;
 }
+@media screen and (max-width: 767px) {
+    .place__paragraph-item{
+      font-size: 2vw;
+    }
+}
 
 @media screen and (max-width: 320px) {
       .place__paragraph-item{

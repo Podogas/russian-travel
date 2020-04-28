@@ -1,9 +1,5 @@
 .lead__title  {
   text-align: center;
-   /* не могу выровнять текст внутри блоков по вертикали vertical-align 
-  не работает, даже если задавать дисплэй инлайн, мне нужно разместить сам текст не на базовой линии элемента,
-  как это сделать я не понимаю(((
-  поэтому расхождение с макетом*/
   margin: 0 auto 0 auto;
   max-width: 720px;
   font-weight: 900;
@@ -11,15 +7,13 @@
   line-height: 1.04;
   transition: font-size .5s linear;
   transition: max-width .5s linear;
-  
-  /* изначально я пытался сделать линейную функцию от
-  1280 к 768 с помощью calc но к сожалению calc судя
-  по всему не умеет вычиатать проценты помноженные на коэффициент
-  поэтому решил использовать transition  */
-
 }
-
-
+@media screen and (max-width: 768px) {
+  .lead__title {
+    font-size: 10.5vw;
+    line-height: 1.04;
+  }
+}
 @media screen and (max-width: 320px) {
   .lead__title {
     max-width: 288px;
@@ -27,3 +21,6 @@
     line-height: 1.1;
   }
 }
+
+
+

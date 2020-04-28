@@ -4,7 +4,7 @@
 
 .footer  {
   max-width: 1184px;
-  margin: 92px auto 0 auto;
+  margin: 92px 48px 0 48px;
   padding-bottom: 24px;
   display: -webkit-flex;
   display: -moz-flex;
@@ -14,21 +14,14 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 768px) {
     .footer{
-      margin-left: calc((100% - 928px)/2);
-      margin-right: calc((100% - 928px)/2);
+      margin: 88px 24px 0 24px ;
     }
 }
 
-@media screen and (max-width: 816px) {
-    .footer{
-      margin-left: calc((100% - 720px)/2);
-      margin-right: calc((100% - 720px)/2);
-    }
-}
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
     .footer{
       display: block;
       margin: 64px 0 0 0 ;
