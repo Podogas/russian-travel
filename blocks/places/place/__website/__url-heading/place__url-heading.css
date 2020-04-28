@@ -4,10 +4,3 @@
   color: #AAAAAA;
   letter-spacing: 0.2em;
 }
-
-@media screen and (max-width: 425px) {
-  .place__url-heading  { 
-   font-size: 32px;
-  line-height: 36;
-}
-}

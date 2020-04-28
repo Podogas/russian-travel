@@ -5,30 +5,29 @@
   margin: 92px auto 92px auto;
 }
 
-@media screen and (max-width: 1120px) {
-    .places{
-      max-width: 928px; 
-      margin-left: calc((100% - 928px)/2);
-      margin-right: calc((100% - 928px)/2);
+@media screen and (max-width: 1080px) {
+    .places{ 
+      margin-left: 48px;
+      margin-right: 48px;
     }
 }
 
-@media screen and (min-width: 700px) and (max-width: 816px) {
+@media screen and (max-width: 1024px) {
+    .places{ 
+      max-width: 928px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
     .places{
       max-width: 720px; 
-      margin-left: calc((100% - 720px)/2);
-      margin-right: calc((100% - 720px)/2);
-      margin-top: 88px;
-      margin-bottom: 88px;
+      margin: 88px 24px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
     .places{
-      max-width: 320px; 
-      margin-left: calc((100% - 320px)/2);
-      margin-right: calc((100% - 320px)/2);
-      margin-top: 38px;
-      margin-bottom: 64px;
+      margin: 32px 0;
     }
 }

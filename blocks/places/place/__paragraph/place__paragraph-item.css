@@ -8,16 +8,14 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 816px) {
-    .place__paragraph-item{
-    font-size: 16px;
-    line-height: 1.62;
-    }
+@media screen and (max-width: 768px) {
+      .place__paragraph-item{
+        font-size: 16px;
+        line-height: 1.63;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
       .place__paragraph-item{
-       margin-left: 16px;
-       margin-right: 16px;
-      }
+        margin-left: 16px;
+        margin-right: 16px;
 }

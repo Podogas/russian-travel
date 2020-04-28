@@ -3,3 +3,23 @@
 @import url('./__image/lead__image.css');
 @import url('./__caption/lead__caption.css');
 
+.lead {
+  max-width: 984px;
+  margin: 0 auto 0 auto;
+}
+
+
+
+
+@media screen and (max-width: 1120px) {
+  .lead {
+  max-width: 928px;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+  width: 100%;
+}
+
+}
