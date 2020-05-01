@@ -5,10 +5,16 @@
 .place__website {
   grid-area: website;
   align-self: end;
+  padding-block-end: 7px;
 }
 
+@media screen and (max-width: 768px) {
+.place__website {
+  padding-block-end: 4px;
+}  
+  }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
 .place__website {
   display: none;
 }  

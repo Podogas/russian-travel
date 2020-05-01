@@ -28,6 +28,12 @@
 
 @media screen and (max-width: 320px) {
     .places{
-      margin: 32px 0;
+      margin: 37px 0;
+    }
+    .place:nth-child(2)  .place__paragraph-item:last-child {
+      padding-inline-end: 5px;
+    }
+    .place:nth-child(5)  .place__paragraph-item:last-child {
+      padding-inline-end: 5px;
     }
 }

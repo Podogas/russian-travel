@@ -1,14 +1,6 @@
 @import url('./_content/lead__image_content_path.css');
 @import url('./_content/lead__image_content_train.css');
 
-
-  .lead__image  {
- position: relative;
- display: -webkit-flex;
- display: -moz-flex;
- display: -ms-flex;
- display: -o-flex;
- display: flex;
- justify-content: center;
+.lead__image  {
+  
 }
-

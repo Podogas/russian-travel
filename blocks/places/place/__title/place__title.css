@@ -4,12 +4,21 @@
   font-size: 72px;
   line-height: 1.06;
   margin: 0;
+  padding-block-start: 7px;
+  padding-inline-end: 12px;
+
 }
 
+@media screen and  (max-width: 1024px) {
+  .place__title  { 
+   padding-block-start: 8px;
+}
+    
 @media screen and  (max-width: 768px) {
   .place__title  { 
    font-size: 42px;
   line-height: 1.1;
+  padding-block-start: 4px;
 }
 }
 @media screen and (max-width: 767px) {
@@ -19,6 +28,7 @@
 
 @media screen and  (max-width: 320px) {
   .place__title  { 
+  padding-block-start: 2px;
    font-size: 32px;
   line-height: 1.09;
   margin-left: 16px;

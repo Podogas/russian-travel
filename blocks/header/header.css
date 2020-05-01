@@ -1,7 +1,8 @@
 @import url('./__logo/header__logo.css');
-@import url('./__lang-link/header__lang-link.css');
+@import url('./__lang-links/header__lang-links.css');
 
 .header {
+  margin: 0 auto;
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;

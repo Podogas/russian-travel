@@ -1,0 +1,10 @@
+  .lead__images  {
+ position: relative;
+ display: -webkit-flex;
+ display: -moz-flex;
+ display: -ms-flex;
+ display: -o-flex;
+ display: flex;
+ justify-content: center;
+}
+

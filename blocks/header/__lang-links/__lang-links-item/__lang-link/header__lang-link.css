@@ -2,8 +2,7 @@
 @import url('./__lang-link_status/header__lang-link_status_unactive.css');
 
 .header__lang-link {
-  margin-left: 18px;
-  margin-bottom: 6px;
+  margin-left: 12px;
  /*   я не понимаю как тут по другому. Как выровнять текст по верхней границе ограниченной line-height
   мне всегда казалось что это vertical-align, но тут он почему то не работает так как я ожидал */
   }
@@ -11,4 +10,11 @@
 .header__lang-link:hover {
   opacity: .8;
   /* Этого не было в макете, но я решил что лучше сделать */
+}
+
+@media screen and (max-width: 450px) {
+  .header__lang-link {
+  margin-left: 14px;
+ 
+  }
 }

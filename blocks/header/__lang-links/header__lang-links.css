@@ -1,0 +1,14 @@
+@import url('./__lang-links-item/header__lang-links-item.css');
+@import url('./__lang-links-item/__lang-link/header__lang-link.css');
+
+.header__lang-links  {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 450px) {
+ .header__lang-links{ 
+  padding-block-end: 3px;
+  }
+}

@@ -1,6 +1,7 @@
-@import url('./intro__header/intro__header.css');
-@import url('./intro__text/intro__text.css');
-@import url('./intro__list/intro__list.css');
+@import url('./__header/intro__header.css');
+@import url('./__text/intro__text.css');
+@import url('./__list/intro__list.css');
+@import url('./__list-item/intro__list-item.css');
 
 .intro {
   max-width: 690px;
@@ -17,13 +18,13 @@
 @media screen and (max-width: 768px) {
     .intro {
       max-width: 720px;
-      margin: 88px  24px;
+      margin: 89px  24px;
     }
 }
 
  @media screen and (max-width: 320px) {
     .intro {
       max-width: 288px;
-      margin: 64px 16px;
+      margin: 65px 16px;
     }
 } 

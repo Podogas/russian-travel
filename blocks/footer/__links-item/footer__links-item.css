@@ -1,0 +1,13 @@
+.footer__links-item  {
+  display: inline-block;
+}
+
+@media screen and (max-width: 500px) {
+    .footer__links-item {
+      display: block;
+      margin-bottom: 30px;
+      font-size: 24px;
+      line-height: 1;
+      margin-left: 16px;
+    }
+}

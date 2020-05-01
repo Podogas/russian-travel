@@ -1,5 +1,5 @@
 .place__paragraph-item  {
-  margin: 0 0 24px 0;
+  margin: 0 0 20px 0;
   font-size: 18px;
   line-height: 1.67em;
 }
@@ -19,8 +19,11 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
       .place__paragraph-item{
+        font-size: 16px;
         margin-left: 16px;
         margin-right: 16px;
+        margin: 0 0 24px 0;
+        padding-inline-end: 21px;
 }

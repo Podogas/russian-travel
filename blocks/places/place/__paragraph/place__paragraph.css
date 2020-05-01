@@ -3,3 +3,9 @@
  /* не знаю как реальзовать перенос текста по словам как в макете */
 
 }
+@media screen and (max-width: 450px) {
+      .place__paragraph{
+        margin-left: 16px;
+        
+}
+}
