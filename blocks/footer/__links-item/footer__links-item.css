@@ -2,7 +2,7 @@
   display: inline-block;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .footer__links-item {
       display: block;
       margin-bottom: 30px;
