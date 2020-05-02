@@ -5,10 +5,11 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  padding-block-end: 5px;
 }
 
 @media screen and (max-width: 450px) {
  .header__lang-links{ 
-  padding-block-end: 3px;
+  padding-block-end: 7px;
   }
 }

@@ -18,14 +18,17 @@
   .place__title  { 
    font-size: 42px;
   line-height: 1.1;
-  padding-block-start: 4px;
+  padding-block-start: 3px;
 }
 }
 @media screen and (max-width: 767px) {
     .place__title{
       font-size: 5.4vw;
     }
-
+@media screen and  (max-width: 500px) {
+  .place__title  {
+    font-size: 8.4vw;
+  }
 @media screen and  (max-width: 320px) {
   .place__title  { 
   padding-block-start: 2px;

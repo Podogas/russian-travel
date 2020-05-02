@@ -7,11 +7,16 @@
 .place__paragraph-item:last-child  {
   margin-bottom: 0;
 }
+@media screen and (min-width: 769px) and (max-width: 1023px){
+   .place__paragraph-item{
+      font-size: 2vw;
+    }
+}
 
 @media screen and (max-width: 768px) {
       .place__paragraph-item{
         font-size: 16px;
-        line-height: 1.63;
+        line-height: 1.625; 
 }
 @media screen and (max-width: 767px) {
     .place__paragraph-item{

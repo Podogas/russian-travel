@@ -1,8 +1,8 @@
 .intro__text  {
   font-size: 16px;
-  line-height: 1.63;
+  line-height: 1.625;
   margin: 0;
-  margin-bottom: 32px;
+  margin-bottom: 33px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -10,9 +10,3 @@
    margin-bottom: 34px;
   }
 }
-
- @media screen and (max-width: 320px) {
-    .intro__text  {
-    
-}
-} /*  пришлось так сделать, потому что тогда разьезжалось с макетом( */
