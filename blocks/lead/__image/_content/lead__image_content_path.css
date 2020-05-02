@@ -1,8 +1,0 @@
-.lead__image_content_path {
-  position: absolute;
-    top: 14.9%;
-    left: auto; /* для абсолютно позиционированных элементов обязательно?! указывать и топ и лево? */
-    right: auto;
-    width: 95.23%;  
-
-}

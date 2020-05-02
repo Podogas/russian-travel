@@ -5,7 +5,11 @@
   align-self: flex-end;
 }
 
-
+@media screen and (max-width: 767px) {
+    .footer__copyright{
+      font-size: 1.8vw;
+    }
+}
 
 @media screen and (max-width: 700px) {
     .footer__copyright{

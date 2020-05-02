@@ -1,6 +1,17 @@
-@import url('./_content/lead__image_content_path.css');
-@import url('./_content/lead__image_content_train.css');
-
 .lead__image  {
-  
+  width: 100%;
+  }
+
+.lead__image:last-child {
+    position: absolute;
+    top: 14.9%;
+    left: auto; 
+    right: auto;
+    width: 95.232%;  
+} 
+
+@media screen and (max-width: 320px) {
+  .lead__image:last-child { 
+    max-height: 85.53px;
+  }
 }

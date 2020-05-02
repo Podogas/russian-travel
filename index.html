@@ -24,11 +24,10 @@
         </li>
       </ul>
     </header>
-    <!-- огромное вам спасибо что проверяете мою работу в неурочное время --> 
-
-    <!-- если можно я задам вам несколько вопросов: 
-      на что в большей степени стоит ориентироваться на картинку(pixel perfect) или на размеры в макете
-      как работать с переносом текста? многоие слова переносятся не так как в макете padding-inline-end не всегда помогает. А еще у меня по прежнему остался вопрос о том как выровнять базовую линию внутри элемента(я правильно понимаю что ее средствами css нельзя выровнять можно только выровнять контейнер относительно базовой линии? и базовая линия всегда находится по центру виртуальной области line-height) -->
+    <!-- огромное вам спасибо еще раз что проверяете мою работу в неурочное время это дает мне шанс не уйти в академ это очень круто --> 
+    
+    <!-- так же огромное спасибо за ответы на вопросы которые я задавал. К сожалению по одному из пунктов в прошлом ревью у меня не получилось ничего исправить, потому что расхождения в размерах изображений на разрешении 320px я не нашел(кроме картинки с маршрутом в блоке lead там я поправил, но картинка с поездом в этом же блоке в порядке, а вот в моем макете она находится на 2 пикселя левее, я думаю что это ошибка в макете, об этом в том числе было написанно в статье о том что должен знать разработчик) -->
+    
 
     <main class="content">
       
@@ -42,8 +41,8 @@
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
         <div class="lead__images">
-          <img src="./images/train.jpg" alt="интерьер поезда" class="lead__image lead__image_content_train">
-          <img src="./images/path.png" alt="схема пути от пскова до улан-удэ" class="lead__image lead__image_content_path">
+          <img src="./images/train.jpg" alt="интерьер поезда" class="lead__image">
+          <img src="./images/path.png" alt="схема пути от пскова до улан-удэ" class="lead__image">
         </div>
         <p class="lead__caption">
           ваша полка — верхняя
@@ -64,19 +63,19 @@
         </p>
         <ul class="intro__list">
           <li class="intro__list-item">Часовых поясов 
-            <span class="intro__list-item intro__list-item_fw_normal">11</span>
+            <span class="intro__list-item_fw_normal">11</span>
           </li>
           <li class="intro__list-item">Объектов природного наследия ЮНЕСКО 
-            <span class="intro__list-item intro__list-item_fw_normal">12</span>
+            <span class="intro__list-item_fw_normal">12</span>
           </li>
           <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО 
-            <span class="intro__list-item intro__list-item_fw_normal">16</span>
+            <span class="intro__list-item_fw_normal">16</span>
           </li>
           <li class="intro__list-item">Природных заповедников 
-            <span class="intro__list-item intro__list-item_fw_normal">105</span>
+            <span class="intro__list-item_fw_normal">105</span>
           </li>
           <li class="intro__list-item">Аэропортов 
-            <span class="intro__list-item intro__list-item_fw_normal">241</span>
+            <span class="intro__list-item_fw_normal">241</span>
           </li>  
         </ul>
       </section>
@@ -217,9 +216,7 @@
               По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.
             </p>  
           </div>
-          <div class="cover__overlay">
-            <img class="cover__background" src="./images/__background.jpg" alt="железная дорога">
-          </div>
+          <img class="cover__background" src="./images/__background.jpg" alt="железная дорога">
         </a>  
       </section>
 

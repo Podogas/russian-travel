@@ -1,1 +1,3 @@
-@import url('./_fw/intro__list-item_fw_normal.css');
+.intro__list-item_fw_normal {
+  font-weight: 400;
+}
