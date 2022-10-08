@@ -13,12 +13,10 @@ const LeadSubTitleRuContent = "Настоящая страна не в выпу�
  function insertEnContent() {
   leadTitle.textContent = LeadTitleEnContent;
   leadSubTitle.textContent = LeadSubTitleEnContent;
-  console.log(leadTitle)
  }
   function insertRuContent() {
   leadTitle.textContent = LeadTitleRuContent;
   leadSubTitle.textContent = LeadSubTitleRuContent;
-  console.log(leadTitle)
  }
 
 function changeLangToRu() {
