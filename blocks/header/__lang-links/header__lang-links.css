@@ -1,5 +1,6 @@
 @import url('./__lang-links-item/header__lang-links-item.css');
 @import url('./__lang-links-item/__lang-link/header__lang-link.css');
+@import url('./__lang-links-item/__lang-link/__lang-link_status/header__lang-link_status_active.css');
 
 .header__lang-links  {
   list-style: none;

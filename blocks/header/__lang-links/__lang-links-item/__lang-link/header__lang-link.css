@@ -1,8 +1,8 @@
-@import url('./__lang-link_status/header__lang-link_status_active.css');
-@import url('./__lang-link_status/header__lang-link_status_unactive.css');
+
 
 .header__lang-link {
   margin-left: 12px;
+  border-bottom: none;
  /*   я не понимаю как тут по другому. Как выровнять текст по верхней границе ограниченной line-height
   мне всегда казалось что это vertical-align, но тут он почему то не работает так как я ожидал */
   }
