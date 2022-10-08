@@ -1,5 +1,5 @@
 # [Путешествие по России](https://podogas.github.io/russian-travel/)
-
+![russian travel priject oreview](russian-travel_preview.png)
 ## Описание:
 В этой работе мне нужно было научиться адаптивной верстке
 
